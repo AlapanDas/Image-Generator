@@ -5,7 +5,7 @@ import io
 from PIL import Image, ImageTk
 
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
-HEADERS = {"Authorization": "Bearer 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"}
+HEADERS = {"Authorization": "Bearer <key>"}
 
 root = tk.Tk()
 root.title("Text to Image")
